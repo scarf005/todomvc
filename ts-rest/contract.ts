@@ -1,7 +1,9 @@
-import { initContract } from "npm:@ts-rest/core"
-import { todoSchema, todosSchema } from "../todo.ts"
-import { z } from "../deps.ts"
-import { notFoundSchema } from "../responses.ts"
+/// <reference types="@types/node" />
+
+import { initContract } from "npm:@ts-rest/core@3.26.3"
+import { todoSchema, todosSchema } from "../shared/todo.ts"
+import { z } from "../shared/deps.ts"
+import { notFoundSchema } from "../shared/responses.ts"
 
 const c = initContract()
 

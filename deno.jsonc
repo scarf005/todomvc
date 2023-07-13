@@ -3,6 +3,9 @@
     "semiColons": false,
     "lineWidth": 100
   },
+  "imports": {
+    "@types/node": "npm:@types/node@20.4.0"
+  },
   "compilerOptions": {
     "exactOptionalPropertyTypes": true
   }

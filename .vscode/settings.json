@@ -1,5 +1,6 @@
 {
-  "deno.enable": true,
+  "deno.enable": false,
+  "deno.enablePaths": ["shared", "ts-rest", "zodios", "dnt.ts", "mod.ts"],
   "deno.lint": true,
   "deno.unstable": true,
   "deno.config": "./deno.jsonc",
